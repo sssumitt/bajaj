@@ -1,0 +1,25 @@
+# --- Virtual Environment ---
+# Ignore the virtual environment directory created by venv or uv
+/.venv/
+
+# --- Python Cache ---
+# Ignore bytecode and cache directories
+__pycache__/
+*.pyc
+
+# --- IDE / Editor specific files ---
+# VSCode
+/.vscode/
+# PyCharm
+/.idea/
+
+# --- Environment Files ---
+# Ignore files containing environment variables and secrets
+.env
+.env.*
+
+# --- OS-specific files ---
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
